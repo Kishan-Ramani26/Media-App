@@ -11,11 +11,11 @@ const ResulteCard = ({ item }) => {
     <div className="w-full h-auto mb-4">
       {item.Type === "photo" ? (
         <div className="relative group">
-          <a href={item.URL} target="_blank" rel="noopener noreferrer">
+            <a href={item.URL} target="_blank" rel="noopener noreferrer">
             <img
               src={item.src}
               alt={item.title}
-              className="w-full h-auto rounded-lg object-cover cursor-pointer"
+              className="w-full h-auto rounded-lg object-cover cursor-target cursor-pointer"
               loading="lazy"
               decoding="async"
             />

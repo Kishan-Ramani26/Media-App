@@ -15,7 +15,7 @@ const App = () => {
           duration={1.2}
           speed={0.6}
           scrambleChars="˶ᵔ ᵕ ᵔ˶"
-          style={{ fontSize: "3rem", fontWeight: 800, margin: "0.75rem auto" }}
+          style={{ fontSize: 'clamp(1.6rem, 6vw, 3rem)', fontWeight: 800, margin: "0.75rem auto" }}
         >
           Media Search — Discover • Stream • Share
         </ScrambledText>
@@ -26,11 +26,7 @@ const App = () => {
           duration={1.2}
           speed={0.6}
           scrambleChars="⋆｡‧˚ʚ♡ɞ˚‧｡⋆"
-          style={{
-            fontSize: "1.2rem",
-            fontWeight: 200,
-            margin: "0.75rem auto",
-          }}
+          style={{ fontSize: 'clamp(0.95rem, 3.5vw, 1.2rem)', fontWeight: 200, margin: "0.75rem auto" }}
         >
           Find your favorite media faster
         </ScrambledText>
