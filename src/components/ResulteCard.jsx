@@ -26,12 +26,12 @@ const ResulteCard = ({ item }) => {
               {item.title}
             </h3>
 
-            <button 
+            {/* <button 
               className="bg-blue-500 active:scale-95 text-white px-4 py-2 text-sm rounded-lg ml-2 cursor-pointer"
               onClick={() => addToCollection(item)}
             >
               Save
-            </button>
+            </button> */}
           </div>
         </div>
       ) : item.Type === "video" ? (
