@@ -17,7 +17,7 @@ const App = () => {
           scrambleChars="˶ᵔ ᵕ ᵔ˶"
           style={{ fontSize: 'clamp(1.6rem, 6vw, 3rem)', fontWeight: 800, margin: "0.75rem auto" }}
         >
-          Media Search — Discover • Stream • Share
+          Media Search — Discover • Stream • Enjoy
         </ScrambledText>
         {/* <p className="w-full text-center text-sm text-gray-300"></p> */}
         <ScrambledText
