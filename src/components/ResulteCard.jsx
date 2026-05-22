@@ -3,9 +3,9 @@ import React from "react";
 const ResulteCard = ({ item }) => {
   if (!item) return null;
 
-  const addToCollection = (item) => {
+  // const addToCollection = (item) => {
     
-  }
+  // }
 
   return (
     <div className="w-full h-auto mb-4">
